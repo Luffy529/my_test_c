@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    float l, L, perimetre, surface;
+        printf("entrer largeur et longeur : ");
+        scanf("%f %f", &l, &L);
+    perimetre = (l+L)*2;
+    surface = l * L;
+        printf("Surface is : %f",surface);
+        printf("perimetre is : %f",perimetre);
+
+    return 0;
+
+}

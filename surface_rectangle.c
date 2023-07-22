@@ -8,7 +8,7 @@ int main()
         scanf("%f %f", &l, &L);
     perimetre = (l+L)*2;
     surface = l * L;
-        printf("Surface is : %.2f",surface);
+        printf("Surface is : %.2f\n",surface);
         printf("perimetre is : %.2f",perimetre);
 
 

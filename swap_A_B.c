@@ -5,16 +5,14 @@
 
 int main()
 {
-    int A, B, C;
-        printf("entrer la valeur de A : ");
-        scanf("%d", &A);
-        printf("entrer la valeur de B : ");
-        scanf("%d", &B);
-        A = A + B;
-        B = A - B;
-        A = A - B;
-        printf("A = %d\n",A);
-        printf("B = %d\n",B);
+    int T ,H , S, M;
+        printf("write the time T : ");
+        scanf("%d", &T);
+    H = T / 3600;
+    M = (T % 3600) / 60;
+    S = T % 60;
+
+        printf(" T = %dH %dm %ds",H,M,S);
         getch();
 
 

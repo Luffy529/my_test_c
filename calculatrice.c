@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
-#include <conio.h>
 
 int main()
 {
@@ -18,7 +17,6 @@ int main()
         printf("A * B = %.2f\n",P);
         printf("A - B = %.2f\n",Df);
         printf("A / B = %.2f\n",Dv);
-        getch();
 
 
     return 0;

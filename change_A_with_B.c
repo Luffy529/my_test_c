@@ -13,9 +13,9 @@ int main()
         scanf("%d", &B);
         C = A;
         A = B;
-        A = C;
-        printf("A = %.2d\n",A);
-        printf("B = %.2d\n",B);
+        B = C;
+        printf("A = %d\n",A);
+        printf("B = %d\n",B);
         getch();
 
 

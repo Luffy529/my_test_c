@@ -14,7 +14,7 @@ int main()
 
         scanf("%f %f", &Ya, &Yb);
         Ds = sqrt(pow(Xb - Xa , 2) + pow(Yb - Ya , 2));
-        printf("A = %d\n",Ds);
+        printf("A = %f\n",Ds);
         getch();
 
 

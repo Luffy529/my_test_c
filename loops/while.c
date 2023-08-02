@@ -13,6 +13,7 @@ int main ()
     printf ("entrer un nombre : ");
     scanf ("%d",&N);
     }
+    /*we can use boucle "for()"*/
     i=0;
     while(i<=10)
     {

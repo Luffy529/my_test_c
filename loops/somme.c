@@ -12,7 +12,7 @@ int main ()
     }
         printf("la somme des 20 premies entiers est : %d\n", S);
     
-
+    
 
 
 

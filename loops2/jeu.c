@@ -2,7 +2,8 @@
 #include <stdlib.h>
 #include <time.h>
 
-int main () {
+int main(void)
+{
     int N = 0;
     int random;
     int nomberTentative = 0;
@@ -19,7 +20,7 @@ int main () {
         scanf ("%d",&N);
     if (N<random)
         printf ("C'est plus !\n");
-    else if (N>random) 
+    else if (N>random)
         printf ("C'est mois !\n");
     else{
         estcorect=1;
@@ -28,9 +29,9 @@ int main () {
 
     } while (nomberTentative<6);
     if (estcorect==1)
-        printf ("Bravo! VOus avez trouve %d en %d essais",random,nomberTentative);
-    else
-        printf ("oups! vous avez depasse les 6 essais. le nombre est :%d",random);
+		printf("Bravo! VOus avez trouve %d en %d essais", random, nomberTentative);
+	else
+		printf("oups! vous avez depasse les 6 essais. le nombre est :%d\n", random);
 
-    return 0;
-}
+	return (0);
+	}

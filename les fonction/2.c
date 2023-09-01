@@ -30,7 +30,7 @@ return (P);
 
 	int main(void)
 	{
-	
+
 		int result;
 		result = puissance(N);
 		printf("%d\n", result);

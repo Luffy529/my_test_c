@@ -1,32 +1,31 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-  int A, B;
-void signe (){  
+	int A, B;
+void signe (){
 if (A * B > 0)
     printf("les valeure A et B on le meme signe \n");
-else 
+else
     printf("les valeure A et B on des signe defferents \n");
 }
 int minimum (){
     int min ;
     if (A>B)
         min = B;
-    else 
+    else
         min = A;
     return min ;
 
 }
 int maximum (){
-      int max ;
+	int max ;
     if (A>B)
         max = A;
-    else 
+    else
         max = B;
     return max ;
 }
 
- 
 int main ()
 {
     int max , min;

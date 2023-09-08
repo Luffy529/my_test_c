@@ -1,25 +1,27 @@
 #include <stdio.h>
 #include <stdlib.h>
-void maximum (int *x, int *y, int *m)
+void maximum(int *A, int *B, int *max)
 {
-if (*x > *y)
-    *m= *x;
+if (*A > *B)
+	*max = *A;
 else
-    *m= *y;
-    }
+	*max = *B;
+	}
 
 
 
 
-int main()
+int main(void)
 {
-int A, B, max;
-    printf("enter A : ");
-    scanf("%d", &A);
-    printf("entrer B : ");
-    scanf("%d" , &B);
-maximum (&A, &B, &max);
-    printf("le max des deux valeur est : %d",max);
+int A, B, max, S=1;
 
-    return 0;
+	printf("enter A : ");
+	scanf("%d", &A);
+	printf("entrer B : ");
+	scanf("%d", &B);
+	S += 5;
+maximum(&A, &B, &max);
+	printf("le max des deux valeur est : %d\n", max);
+	printf("le : %d\n", S);
+	return (0);
 }

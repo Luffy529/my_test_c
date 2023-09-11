@@ -1,5 +1,12 @@
-A + B = S;
-maximum(&A, &B, &max);
-	printf("le max des deux valeur est : %d\n", max);
-	printf("le : %d\n", S);
-	return (0);
+
+{
+int A[] = {12, 23, 34, 45, 56, 67, 78, 89, 90};
+
+int *P;
+P = A;
+++P;
+printf("%d\n",&P);
+printf("%d\n",&A[23]);
+
+return 0;
+}
